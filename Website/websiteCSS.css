@@ -1,0 +1,11 @@
+.text-center{
+    display: block;
+    text-align: center;
+}
+
+.buttonTest {
+    display: block;
+    height:50px;
+    width: 100px;
+    border-radius: 50%;
+    }

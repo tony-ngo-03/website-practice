@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Tony Ngo</title>
+        <link rel="stylesheet" href="websiteCSS.css">
+        <script type="text/javascript" src="websiteJS.js"></script>
+        <style>
+            body {
+                background-color: powderblue;
+                
+            }
+
+            h1{
+                color: blue;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: large;
+            }
+            button{
+                color: yellow;
+                text-align: center;
+                background-color: purple;
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+        <h1 id="mainHeader" style="text-align: center;">Tony Ngo</h1>
+
+        <div class="text-center">
+
+            <div class="buttonTest">
+                <button id="test" type="submit">test</button>
+                <script>
+                    var btn = document.getElementById("test");
+                    btn.addEventListener("click", alertMe);
+
+                    function alertMe(){
+                        alert("Hello!");
+                    }
+
+                </script>
+            </div>
+            
+            <button id="Linkedin" onclick="openLinkedIn();" type="submit">LinkedIn</button>
+            <br><br>
+            <button id="Github" onclick="openGithub();" type="submit">Github</button>
+            <br><br>
+            <button id="Current Projects" onclick="openOtherSite();" type="submit">Current Projects</button>
+            <br><br>
+            <button id="Contact Me!" onclick="openContactSite();" type="submit">Contact Me!</button>
+        </div>
+        
+    </body>
+
+   
+   <script>
+        var btn = document.getElementById('demo');
+        btn.addEventListener("click", alertMe);
+
+        function alertMe(){
+            alert("The Button has been clicked!")
+        }
+    </script>
+    <script>
+        console.log("Hello World!");
+    </script>
+    
+
+</html>
