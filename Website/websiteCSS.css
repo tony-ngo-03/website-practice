@@ -9,3 +9,8 @@
     width: 100px;
     border-radius: 50%;
     }
+
+.align-left{
+    display: block;
+    text-align: left;
+}

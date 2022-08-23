@@ -15,9 +15,9 @@ function openGithub(){
 }
 
 function openOtherSite(){
-    window.open("file:///C:\\Users\\tonyn\\Documents\\Programming Projects\\VSCODE\\Website/currentProjects.html", "_blank");
+    window.open("file:///C:\\Users\\tonyn\\Documents\\Programming Projects\\VSCODE\\website-practice\\Website/currentProjects.html", "_blank");
 }
 
 function openContactSite(){
-    window.open("file:///C:\\Users\\tonyn\\Documents\\Programming Projects\\VSCODE\\Website/contactMe.html", "_blank");
+    window.open("file:///C:\\Users\\tonyn\\Documents\\Programming Projects\\VSCODE\\website-practice/contactMe.html", "_blank");
 }
